@@ -1,0 +1,28 @@
+.show_account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 4px;
+  margin: 8px 0px;
+  width: 80%;
+
+  div {
+    display: flex;
+    width: 90%;
+    padding-left: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.profile_description {
+  width: 180px;
+  margin-top: 3px;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

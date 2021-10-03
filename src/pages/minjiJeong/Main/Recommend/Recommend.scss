@@ -1,0 +1,44 @@
+@import '../../../../styles/variable.scss';
+
+@mixin flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recommend_friends {
+  width: 100%;
+  margin-top: 20px;
+  overflow: scroll;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 2px solid $theme-color-border;
+}
+
+.recommend_header {
+  @include flex-space-between;
+  flex-direction: row;
+  padding: 15px 15px 5px 15px;
+}
+
+.recommend_header {
+  h5 {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+.recommend_contents {
+  padding: 0 10px;
+}
+
+.recommend_row {
+  @include flex-space-between;
+  flex-direction: row;
+}
+
+.btn_follow {
+  font-size: 13px;
+  font-weight: bold;
+  color: $theme-color-button;
+}

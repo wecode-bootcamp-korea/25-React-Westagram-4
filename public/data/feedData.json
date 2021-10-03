@@ -1,0 +1,32 @@
+[
+  {
+    "id": "P1",
+    "userId": "_minji.jeong",
+    "userImage": "images/minjiJeong/ocean.jpg",
+    "feedImage": "images/minjiJeong/blue.jpg",
+    "likedAccount": "kyeonghoonie",
+    "likedAccountImage": "images/minjiJeong/lazer.png",
+    "like": 10,
+    "content": "제주도 1일차: 너무나 알찬 하루였다 ❣"
+  },
+  {
+    "id": "P2",
+    "userId": "ppringles_",
+    "userImage": "images/minjiJeong/sun.jpg",
+    "feedImage": "images/minjiJeong/pizza.jpg",
+    "likedAccount": "chris_yang",
+    "likedAccountImage": "images/minjiJeong/chris.jpg",
+    "like": 5,
+    "content": "존맛탱 야채피자"
+  },
+  {
+    "id": "P3",
+    "userId": "subun.toretta",
+    "userImage": "images/minjiJeong/chris.jpg",
+    "feedImage": "images/minjiJeong/cake.jpg",
+    "likedAccount": "_minji.jeong",
+    "likedAccountImage": "images/minjiJeong/blue.jpg",
+    "like": 21,
+    "content": "군침이 싹도노 케이크 먹방"
+  }
+]
