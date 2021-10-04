@@ -1,0 +1,23 @@
+.story {
+  height: 250px;
+  border-radius: 5px;
+  overflow: hidden;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.story-txt {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.story-txt p {
+  padding: 15px;
+  cursor: pointer;
+  color: #c5c5c5;
+}
+
+.story-txt p:last-child {
+  color: black;
+}

@@ -1,0 +1,40 @@
+.Main {
+  .foo {
+    display: flex;
+    justify-content: center;
+    background: #fafafa;
+  }
+
+  .container {
+    position: relative;
+    top: 54px;
+    left: 0;
+    max-width: 1000px;
+    padding-right: 30px;
+  }
+
+  aside {
+    width: 350px;
+    height: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 84px;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .wrap .search {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .feed {
+    margin: 30px auto;
+    min-width: 650px;
+  }
+
+  aside {
+    display: none;
+  }
+}
