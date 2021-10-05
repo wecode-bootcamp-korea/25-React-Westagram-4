@@ -1,0 +1,78 @@
+$theme-color: white;
+$theme-color-button: #0095f6;
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+body {
+  @include flex-center;
+  background-color: #fafafa;
+}
+
+.bigBox {
+  width: 400px;
+  height: 550px;
+  border: 1px solid lightgray;
+  background-color: $theme-color;
+}
+
+.logo {
+  margin-top: 40px;
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+  background-color: $theme-color;
+}
+
+input {
+  width: 80%;
+  height: 50px;
+  border: 1px solid lightgray;
+  background-color: #fafafa;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+.inputId {
+  margin-top: 50px;
+  background-color: $theme-color;
+}
+
+.inputPw {
+  margin-top: 10px;
+  background-color: $theme-color;
+}
+
+.loginButton {
+  margin-top: 20px;
+  background-color: $theme-color;
+}
+
+.buttonOn,
+.buttonOff {
+  width: 80%;
+  height: 40px;
+  background-color: $theme-color-button;
+  color: $theme-color;
+  margin-bottom: 170px;
+  border-radius: 6px;
+  border: 0;
+  cursor: grab;
+}
+.buttonOff {
+  opacity: 0.5;
+}
+
+.buttonOn {
+  opacity: 1;
+}
+
+a {
+  font-size: 12px;
+  text-decoration: none;
+  background-color: $theme-color;
+  color: rgb(35, 52, 77);
+}
