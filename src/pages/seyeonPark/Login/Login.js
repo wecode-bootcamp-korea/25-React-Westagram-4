@@ -10,7 +10,7 @@ class Login extends React.Component {
       inputPwValue: '',
     };
   }
-  // 이벤트 핸들러가 제대로 불리는지 콘솔로 꼭 찍어보기
+
   handleInput = event => {
     const { name, value } = event.target;
     this.setState({
